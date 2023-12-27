@@ -1,0 +1,23 @@
+functional interface-
+consumer , predicate , supplier
+
+consumer-interface used to consume object and don't want to return anything.
+void accept(T t);
+--Stream API- forEach method accept consumer interface
+predicate interface -used when perticular conditional statement
+boolean test(T t);
+
+supplier interface- used when there is no input but get sum output
+T get();
+
+
+#  Stream api
+It is used to to process collections of object.
+stream is sequence of object that supports various methods which can be pipelined to produce desired output.
+https://prnt.sc/pmUhoLjfvLce
+why stream-1.functional programming,code reduce,bulk operation,
+
+
+methods- 
+forEach -  iteration work,
+Filter-Conditional check,
